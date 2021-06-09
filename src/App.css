@@ -1,0 +1,199 @@
+body {
+  text-align: center;
+  /* font-family: "Baloo Tammudu 2", cursive; */
+  font-family: Lato;
+  /* background-color: #201e1e; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+    url("https://image.freepik.com/free-photo/mat-rolls-chopsticks-chinese-asian-food-dark-wooden-background_266242-97.jpg");
+  color: antiquewhite !important;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover !important;
+  /* height: 100vh; */
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2018/01/Charcuterie_Darina-Kopcok.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  height: 100vh;
+}
+
+.title {
+  display: block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 60%;
+  height: 60%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 96px !important;
+}
+
+.search-box {
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  background: rgba(255, 255, 255, 0.15);
+  height: 6rem;
+  border-radius: 50px;
+  padding: 2%;
+  width: 40rem;
+}
+
+.search-btn {
+  color: antiquewhite;
+  float: right;
+  border-radius: 80%;
+  font-size: 2.5em;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-search {
+  background: black;
+  font-size: 24px;
+}
+
+.search-input {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 32px;
+  transition: 2s;
+  width: 32rem;
+}
+
+/* .search-box:hover > .search-input {
+  width: 250px;
+  padding: 0 7px;
+} */
+
+.start {
+  /* transition: 3s; */
+  margin-top: 3rem;
+  color: antiquewhite !important;
+  background-color: rgba(255, 255, 255, 0.15);
+  outline-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: antiquewhite;
+}
+
+.card {
+  width: 25rem;
+  height: 35rem;
+  float: left;
+  margin: 10%;
+  box-shadow: 0 0 4px 0;
+  background: inherit;
+  backdrop-filter: blur(10px);
+  /* margin: 100px; */
+  text-align: center;
+  border-radius: 42px;
+}
+
+.card-img-top {
+  /* margin-top: 3%; */
+  border-top-left-radius: 42px;
+  border-top-right-radius: 42px;
+}
+
+.missing {
+  color: antiquewhite;
+  background-color: rgba(255, 255, 255, 0.1);
+
+}
+.row {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.recipeTitle {
+  font-size: 64px !important;
+  font-weight: bold;
+  color: antiquewhite;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.card-body {
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.recipeSummary {
+  text-align: justify;
+}
+
+.recipeTime {
+  width: 14rem !important;
+}
+
+.ta-left {
+  text-align: left;
+}
+
+.ta-center {
+  text-align: center;
+  /* vertical-align: middle; */
+}
+
+::placeholder {
+  color: antiquewhite;
+  opacity: 0.8;
+}
+
+input {
+  color: antiquewhite !important;
+  opacity: 1;
+}
+
+.card-link {
+  color: antiquewhite;
+  /* width: 20rem;
+  height: 4rem; */
+}
+
+.display-4 {
+  margin-top: 3%;
+}
+
+.recipeDetailsImage {
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  width: 30rem;
+}
+
+.ingr {
+  background-color: rgba(255, 255, 255, 0.08);
+  font-size: larger;
+  font-weight: bold;
+  padding: 2%;
+}
+
+.likes {
+  font-size: 24px;
+  color: antiquewhite;
+}
+
+a {
+  color: antiquewhite;
+}
